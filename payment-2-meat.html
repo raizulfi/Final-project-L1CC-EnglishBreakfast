@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+<section>
+<div class="nav-bar-trigger">
+    <div class="list-container">
+        <ul class="nav-list">
+            <li><a href="index.html" class="navbar-link-2">Home</a></li>
+            <hr class="line-2">
+            <li><a href="shop.html" class="navbar-link-2">Shop</a></li>
+            <hr class="line-2">
+            <li><a href="index.html#about-2" class="navbar-link-2">About</a></li>
+            <hr class="line-2">
+            <li><a href="index.html#menu-2" class="navbar-link-2">Menu</a></li>
+            <hr class="line-2">
+            <li><a class="navbar-link-book-2">Sign Up</a></li>
+        </ul>
+    </div>
+</div>
+</section>
+    <section class="header">
+        <nav class="navbar">
+            <div class="navbar-box">
+                <h3 class="heading"><img src="img/Logo_Chef_2.jpeg" alt="Chef's Choice" onclick="location.href='index.html'" class="logo-chef"></h3>
+            </div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a href="index.html" class="navbar-link">Home</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="shop.html" class="navbar-link">Shop</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html#about-2" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-item">
+                    <a href="index.html#menu-2" class="navbar-link">Menu</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link-book">Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="payment-box">
+            <p class="payment-text"><span class="payment-text-1-inactive-state-2">1. Shipping Summary</span><span class="payment-text-2-active-state-2">2. Shipping Details</span><span class="payment-text-3-inactive-state-2">3. Payment Option</span></p>
+            <div>
+                <hr class="line-5"><hr class="payment-line-1-inactive-state-2"><hr class="payment-line-2-active-state-2"><hr class="payment-line-3-inactive-state-2">
+            </div>
+        </div>
+        <div class="payment-grid">
+            <div class="payment-grid-box">
+                <p class="payment-title-cart">Shopping Cart</p>
+                <hr class="payment-line-cart">
+                   <form>
+                        <label class="name-form-payment">Name        :</label>
+                        <input type="text" class="payment-form-text-1"><br>
+                        <label class="name-form-payment">Address     :</label>
+                        <input type="text" class="payment-form-text-2"><br>
+                        <label class="name-form-payment">Country     :</label>
+                        <input type="text" class="payment-form-text-3"><br>
+                        <label class="name-form-payment">Post Number :</label>
+                        <input type="text" class="payment-form-text-4"><br>
+                        <label class="name-form-payment">Email       :</label>
+                        <input type="text" class="payment-form-text-5"><br>
+                   </form>
+                <hr class="payment-line-cart-2">
+            </div>
+            <div class="payment-grid-box">
+                <p class="payment-title-cart">Summary</p>
+                <hr class="payment-line-cart">
+                <p class="payment-title-cart">Total</p>
+                <hr class="payment-line-cart">
+                <p class="subtotal">Subtotal <span class="subtotal-2">Rp45.000,00</span></p>
+                <p class="shipping">Shipping <span class="shipping-2">Free</span></p>
+                <p class="taxes">Taxes(10%) <span class="taxes-2">Rp.4.500,00</span></p>
+                <hr class="payment-line-cart">
+                <p class="total">Total <span class="total-2">Rp49.500,00</span></p>
+            </div>
+        </div>
+        <div class="button-payment">
+            <p class="payment-button-next" onclick="location.href='payment-3-meat.html'">Next</p><p class="payment-button-cancel" onclick="location.href='index.html'">Cancel</p>
+        </div>
+    </section>       
+    <section class="footer">
+        <hr class="more-borders">
+        <hr class="line">
+        <div class="footer-area">
+            <div class="footer-text">
+                <p class="footer-label"><span class="C">C</span>Chef's Choice</p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <form class="modal-content" action="/action_page.php">
+            <div class="signup-container">
+            <h1 class="heading-signup">Sign Up</h1>
+            <hr>
+            <label class="text-signup" for="email">Email</label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label class="text-signup" for="psw">Password</label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label class="text-signup" for="psw-repeat">Repeat Password</label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            
+            <label class="checkbox-signup">
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+            <p class="terms-and-c">By creating an account you agree to our <a href="#" class="terms-and-c" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            </div>
+        </form>
+        </div> 
+        <script>
+            var modal = document.getElementById('id01');
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                $ (".modal").fadeOut();
+              }
+            }
+            $ (".cancelbtn").click(function() {
+                $ (".modal").fadeOut();
+            })
+            $ (".signup").click(function() {
+                $ (".modal").fadeIn();
+            })
+            $ (".navbar-link-book").click(function() {
+                $ (".modal").fadeIn();
+            })
+            $ (".navbar-link-book-2").click(function() {
+                $ (".modal").fadeIn();
+            })
+
+            $ (".show-img1").click(function(){
+                $ (".new-img3").hide();
+                $ (".new-img2").hide();
+                $ (".new-img1").fadeIn();
+            })
+
+            $ (".show-img2").click(function(){
+                $ (".new-img3").hide();
+                $ (".new-img1").hide();
+                $ (".new-img2").fadeIn();
+            })
+
+            $ (".show-img3").click(function(){
+                $ (".new-img1").hide();
+                $ (".new-img2").hide();
+                $ (".new-img3").fadeIn();
+            })
+        </script>
+</body>
+</html>
