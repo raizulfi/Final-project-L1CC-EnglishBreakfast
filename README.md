@@ -1,6 +1,6 @@
 # chef's choice
 
-**ClassName**: L1CC
+**Class**: L1CC
    
    **Course**   : (COMP6800001) Human and Computer Interaction  - Final Project
    
@@ -8,8 +8,10 @@
    
    **Members**  :
         
-   Ostein Vittorio Vellim		2602206783
-   	Michael Bengawan				2602184290
+   	Ostein Vittorio Vellim			2602206783
+	
+   	Michael Bengawan			2602184290
+	
 	Muhammad Raihan Zulfi			2602229673
           
 ##   **Description**:
@@ -20,7 +22,7 @@ Chef’s Choice is a subscription based meal kit service where customers can ord
  ##  **Target Users**:
 the target audience for Chef's Apron would be people who are looking for a convenient and easy way to plan and prepare meals, but also value the experience of cooking at home and enjoying a home-cooked meal with family and friends.
 
-  ** video link ** :
+  **video link**:
   
   
 
